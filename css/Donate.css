@@ -1,0 +1,51 @@
+/* If you want the content centered horizontally and vertically */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+    width: 300px;
+    /* border-radius: 50%; */
+}
+
+.split {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    transition: all .2s ease-in-out;
+}
+
+.split:hover {
+    transform: scale(1.1);
+}
+
+.top {
+    clear: both;
+    position: fixed;
+    top: 0;
+    height: 50%;
+    width: 100%;
+    background-color: #FFF;
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
+    left: 0;
+}
+
+.bottom {
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    height: 50%;
+    left: 0;
+    width: 100%;
+    background-color: #007bff;
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
+}
